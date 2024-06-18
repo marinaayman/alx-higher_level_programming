@@ -1,8 +1,8 @@
 #!/usr/bin/node
 
-let firstArgument = process.argv[2];
-const toInteger = parseInt(firstArgument, 10);
+let argument = process.argv[2];
+let integerarg = parseInt(firstArgument, 10);
 
-if (toInteger !== toInteger) console.log('Not a number');
-else console.log(`My number: ${toInteger}`);
+if (integerarg !== integerarg) console.log('Not a number');
+else console.log(`My number: ${integerarg}`);
 
